@@ -120,7 +120,7 @@ if ((IR_frente != 0) || (IR_fundo != 0)){
 
    PORTB = 0B00000000;  
    delayMicroseconds(2);   
-   PORTB = 0B00101000;  //Disparo trigger nos dois sensores Ultrassom 
+   PORTB = 0B00100000;  //Disparo trigger no sensor Ultrassom 
    delayMicroseconds(10);   
    PORTB = 0B00000000; 
    

@@ -40,7 +40,6 @@ unsigned long nossamillis ()
   return millis_return;
 } 
 
-
 //Funções de controle dos motores
 int forward()
 {
@@ -94,9 +93,6 @@ int main (void) {
   DDRB = B00100000; //Configuração dos registradores
   long int duracao;
   double distancia;
-  
-
-
 
   
   while (1)
